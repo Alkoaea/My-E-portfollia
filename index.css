@@ -1,0 +1,33 @@
+*{scroll-behavior:smooth;}
+
+.active {
+	color: pink;
+}
+.headText{
+	color: white;
+	font-size: 150px;
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: pink;
+}
+
+.navbar {
+	text-decoration: none;
+	float: right;
+	margin-right: 15px;
+	font-family: Times New Roman, Sans-seif;
+}
+nav {
+	overflow: hidden;
+	background-image: url('img/artworks.png');
+	padding-top: 20px;
+	padding-bottom: 10px;
+	position : fixed;
+	color: pink;
+}
+
+.bgImage {
+	width: 100px;
+}
