@@ -17,11 +17,11 @@
 	text-decoration: none;
 	float: right;
 	margin-right: 15px;
-	font-family: Times New Roman, Sans-seif;
+	font-family: Times New Roman;
 }
 nav {
 	overflow: hidden;
-	background-image: url('img/artworks.png');
+	background-image: url('img/penguins.png');
 	padding-top: 20px;
 	padding-bottom: 10px;
 	position : fixed;
