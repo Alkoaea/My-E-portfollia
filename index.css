@@ -38,7 +38,7 @@ footer {
 }
 .char_sprite {
 	animation: moveSpritesheet 1s steps(8) infinite;
-	width: calc(120px * var(--pixel-size));
+	width: calc(128px * var(--pixel-size));
 }
 @keyframes moveSpritesheet {
 	from {
