@@ -1,5 +1,35 @@
 *{scroll-behavior:smooth;}
+header {
+	overflow: hidden;
+	background-color: #1C2833;
+	text-align: center;
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+}
+nav {
+	position: fixed;
+	text-align: left;
+	top: 100%;
+	left: 0;
+}
+.navbar {
+	color: white;
+	text-decoration: none;
+}
 
+nav ul{
+	margin: 0; 
+	padding: 0;
+	list-style: none;
+	
+}
+
+nav li {
+	margin-bottom: 1em;
+	margin-left: 1em;
+	
+}
  body{
 	 margin:100px;
  }
@@ -7,24 +37,7 @@
 	color: pink;
 }
 
-.navbar {
-	text-decoration: none;
-	color: white;
-	margin-right: 15px;
-	font-family: Times New Roman, Sans-seif;
-	text-align: center;
-}
-nav {
-	overflow: hidden;
-	width 100%;
-	height : 50px;
-	top: 20px;
-	/*padding-bottom: 10px;*/
-	position : fixed;
-	background-color: #1C2833;
-	border : 1px solid;
-	
-}
 html {
 	background-color: #ECF0F1;
 }
+
