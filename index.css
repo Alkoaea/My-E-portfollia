@@ -26,6 +26,11 @@ nav {
 	color: pink;
 }
 
+footer {
+	background-color: #83A3A0;
+	padding: 1px;
+}
+
 html {
 	background-color: #ECF0F1;
 }
