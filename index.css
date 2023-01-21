@@ -31,6 +31,15 @@ footer {
 	padding: 1px;
 }
 
+.char {
+	width: 32px;
+	height: 32px;
+	background: red;
+}
+
+
+
+
 html {
 	background-color: #ECF0F1;
 }
