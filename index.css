@@ -37,7 +37,7 @@ footer {
 	overflow: hidden;
 }
 .char_sprite {
-	animation: moveSpritesheet 1s;
+	animation: moveSpritesheet 1s steps(8) infinite;
 }
 @keyframes moveSpritesheet {
 	from {
