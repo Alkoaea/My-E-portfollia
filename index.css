@@ -4,6 +4,9 @@ header{
 	text-align: center;
 	padding: 1px;
 }
+nav a:hover {
+	color: #8A9A5B;
+}
 nav a {
 	text-decoration: none;
 	float: right;
