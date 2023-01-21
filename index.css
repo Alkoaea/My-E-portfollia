@@ -1,39 +1,23 @@
 *{scroll-behavior:smooth;}
-header {
-	overflow: hidden;
-	background-color: #1C2833;
+header{
+	background-color: #E7D2CC;
 	text-align: center;
-	position: fixed;
-	z-index: 999;
-	width: 100%;
+	padding: 1px;
+}
+nav a {
+	text-decoration: none;
+	float: right;
+	margin-right: 15px;
+	font-family: Times New Roman, Sans-seif;
+	text-align: center;
 }
 nav {
-	position: fixed;
-	text-align: left;
-	top: 100%;
-	left: 0;
-	background-color: #1C2833;
-	width: 100%;
-}
-.navbar {
-	color: white;
-	text-decoration: none;
-}
-nav a:hover {
-	color: grey;
-}
-nav ul{
-	margin: 0; 
-	padding: 0;
-	list-style: none;
-	
+	overflow: hidden;
+	background-color: #B9B7BD;
+	padding-top: 20px;
+	padding-bottom: 10px;
 }
 
-nav li {
-	margin-bottom: 1em;
-	margin-left: 1em;
-	
-}
  body{
 	 margin:100px;
  }
