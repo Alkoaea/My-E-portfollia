@@ -53,6 +53,9 @@ root: {
 	--pixel-size: 6;
 }
 
+.pixelart {
+	image-rendering: pixelated;
+}
 
 
 html {
