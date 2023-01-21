@@ -12,12 +12,16 @@ nav {
 	text-align: left;
 	top: 100%;
 	left: 0;
+	background-color: #1C2833;
+	width: 100%;
 }
 .navbar {
 	color: white;
 	text-decoration: none;
 }
-
+nav a:hover {
+	color: grey;
+}
 nav ul{
 	margin: 0; 
 	padding: 0;
