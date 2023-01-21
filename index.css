@@ -4,7 +4,7 @@ header{
 	text-align: center;
 	padding: 1px;
 }
-nav a a:hover {
+.hover {
 	color: #8A9A5B;
 }
 nav a {
