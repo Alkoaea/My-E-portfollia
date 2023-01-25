@@ -31,10 +31,13 @@ footer {
 	padding: 1px;
 }
 
+:root {
+	--pixel-size: 6;
 .char {
-	width: 32px;
-	height: 32px;
+	width: calc(32 * var(--pixel-size));
+	height: calc(32 * var(--pixel-size));
 	overflow: hidden;
+	background-color: red;	
 }
 .char_sprite {
 	animation: moveSpritesheet 1s steps(8) infinite;
