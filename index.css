@@ -35,19 +35,14 @@ footer {
    --pixel-size: 6;
 }
 
-body {
-   background: #96ffc1;
-}
-
-.Character {
+.char{
    width: calc(32px * var(--pixel-size));
    height: calc(32px * var(--pixel-size));
    overflow: hidden;
    position: relative;
-   margin: 4em auto;
 }
 
-.Character_spritesheet {
+.char_sprite{
    animation: moveSpritesheet 1s steps(8) infinite;
    width: calc(128px * var(--pixel-size));
    position: absolute;
