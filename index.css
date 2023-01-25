@@ -32,13 +32,13 @@ footer {
 }
 
 .char {
-	width: calc(32px);
-	height: calc(32px);
+	width: 32px;
+	height: 32px;
 	overflow: hidden;
 }
 .char_sprite {
 	animation: moveSpritesheet 1s steps(8) infinite;
-	width: calc(128px);
+	width: 128px;
 }
 @keyframes moveSpritesheet {
 	from {
