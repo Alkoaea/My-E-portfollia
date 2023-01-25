@@ -34,14 +34,14 @@ footer {
 :root {
 	--pixel-size: 6;
 .char {
-	width: calc(32 * var(--pixel-size));
-	height: calc(32 * var(--pixel-size));
+	width: calc(32px * var(--pixel-size));
+	height: calc(32px * var(--pixel-size));
 	overflow: hidden;
 	background-color: red;	
 }
 .char_sprite {
 	animation: moveSpritesheet 1s steps(8) infinite;
-	width: 128px;
+	width: calc(128px * var(--pixel-size));
 }
 @keyframes moveSpritesheet {
 	from {
