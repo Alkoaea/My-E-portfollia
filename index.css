@@ -30,6 +30,7 @@ footer {
 	background-color: #83A3A0;
 	padding: 1px;
 	text-decoration: none;
+	overflow: hidden;
 }
 
 html {
