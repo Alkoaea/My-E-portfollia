@@ -17,6 +17,7 @@ nav {
 	background-color: #B9B7BD;
 	padding-top: 5px;
 	padding-bottom: 5px;
+	position: fixed;
 }
 nav ul {
   margin 0;
