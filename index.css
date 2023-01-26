@@ -21,7 +21,20 @@ nav {
 	top: 0;
 	z-index: 5;
 }
+nav ul {
+  margin 0;
+  padding 0;
+  list-style: none;
+}
 
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 20px;
+}
+
+nav a:hover {
+  color: #000;
  body{
 	 margin:100px;
  }
