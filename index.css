@@ -30,6 +30,9 @@ footer {
 	background-color: #83A3A0;
 	padding: 1px;
 }
+footer a {
+	text-decoration: none;
+}
 
 
 
