@@ -8,18 +8,15 @@ header{
 nav a {
 	text-decoration: none;
 	float: right;
-	margin-right: 15px;
+	margin-right: 5px;
 	font-family: Times New Roman, Sans-seif;
 	text-align: center;
 }
 nav {
 	overflow: hidden;
 	background-color: #B9B7BD;
-	padding-top: 20px;
+	padding-top: 10px;
 	padding-bottom: 10px;
-	position: sticky;
-	top: 0;
-	z-index: 5;
 }
 nav ul {
   margin 0;
@@ -29,7 +26,7 @@ nav ul {
 
 nav li {
   display: inline-block;
-  margin-left: 70px;
+  margin-left: 20px;
   padding-top: 20px;
 }
 
