@@ -5,6 +5,12 @@ header{
 	padding: 1px;
 }
 
+footer {
+	background-color: #83A3A0;
+	padding: 1px;
+}
+
+
 nav a {
 	text-decoration: none;
 	float: right;
@@ -23,12 +29,14 @@ nav ul {
   margin 0;
   padding 0;
   list-style: none;
+  position: fixed;
 }
 
 nav li {
   display: inline-block;
   margin-left: 5px;
   padding-top: 5px;
+  position: fixed;
 }
 
 nav a:hover {
