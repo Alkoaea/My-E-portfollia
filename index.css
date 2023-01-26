@@ -3,6 +3,8 @@ header{
 	background-color: #E7D2CC;
 	text-align: center;
 	padding: 1px;
+	width: 100%;
+	top: 0;
 }
 
 nav a {
@@ -14,11 +16,30 @@ nav a {
 }
 nav {
 	overflow: hidden;
-	background-color: #B9B7BD;
-	padding-top: 20px;
-	padding-bottom: 10px;
+	background-color: #BFCAD0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	position: fixed;
+	width: 83%;
+	top: 0;
+	left: 5;
 }
 
+
+nav ul {
+  margin 0;
+  padding 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  padding-top: 5px;
+}
+
+nav a:hover {
+  color: #000;
+}
  body{
 	 margin:100px;
  }
