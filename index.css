@@ -15,8 +15,8 @@ nav a {
 nav {
 	overflow: hidden;
 	background-color: #B9B7BD;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 nav ul {
   margin 0;
@@ -26,8 +26,8 @@ nav ul {
 
 nav li {
   display: inline-block;
-  margin-left: 20px;
-  padding-top: 20px;
+  margin-left: 5px;
+  padding-top: 5px;
 }
 
 nav a:hover {
